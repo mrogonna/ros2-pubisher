@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(example_interfaces REQUIRED)
 
-
 add_executable(pub-sub src/pub-sub.cpp)
 ament_target_dependencies(pub-sub rclcpp example_interfaces)
 
