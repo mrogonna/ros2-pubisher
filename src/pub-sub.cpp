@@ -38,8 +38,8 @@ int main(int argc, char **argv)
 
 #include "rclcpp/rclcpp.hpp"
 #include <thread>
-#include "include/my_cpp_pkg/subscriber_node.hpp"
-#include "include/my_cpp_pkg/publisher_node.hpp"
+#include "my_cpp_pkg/subscriber_node.hpp"
+#include "my_cpp_pkg/publisher_node.hpp"
 
 int main(int argc, char * argv[]) {
   rclcpp::init(argc, argv);
